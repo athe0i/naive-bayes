@@ -1,0 +1,22 @@
+{
+  "name": "athe0i/naive-bayes",
+  "description": "Naive Bayes basic implementation",
+  "type": "library",
+  "require-dev": {
+    "phpunit/phpunit": "^6.4"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Stanislav",
+      "email": "ryuske.kun@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Athe0i\\NaiveBayes\\": "src/",
+      "Athe0i\\NaiveBayes\\Example\\": "exmpl/"
+    }
+  }
+}
